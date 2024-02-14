@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .logo-container {
+    text-align: center;
+  }
+  
+  .slogan-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 200px;
+  }
+  
+  .form-container {
+    background-color: #fff;
+    width: 300px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .form-container input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .btn-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .forgot-password {
+    display: block;
+    margin: 10px 0;
+    color: #1877f2;
+    text-decoration: none;
+  }
+  
+  .btn-create-account {
+    width: 100%;
+    padding: 10px;
+    background-color: #42b72a;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  footer {
+    color: #737373;
+    padding: 10px 0;
+    font-size: 12px;
+  }
+  
+  .footer-content {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+  }
+  
